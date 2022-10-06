@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Principal
+comment0.text=\r\n\ Como\ o\ nome\ j\u00E1\ diz,\ esta\ classe\ fica\ respons\u00E1vel\ por\ armazenar\r\n\ executar\ os\ m\u00E9todos\ utilizados\ no\ jogo.\ Nas\ vari\u00E1veis\ "parametros"\r\n\ est\u00E3o\ armazenadas\ as\ "regras\ do\ jogo",\ e\ na\ vari\u00E1vel\ "tamagotchi"\ \r\n\ est\u00E1\ armazenado\ o\ Tamagotchi\ a\ ser\ utilizado\ pelo\ usu\u00E1rio.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=tamagotchi
+comment2.target=void\ decideEvento(Tamagotchi)
+comment2.text=\r\n\ Este\ m\u00E9todo\ fica\ respons\u00E1vel\ por\ decidir\ qual\ evento\ deve\ ser\r\n\ executado.\ Em\ seguida,\ ele\ o\ executa.\r\n
+comment3.params=tamanho\ tempo\ diaAtual
+comment3.target=int\ encerraDia(int,\ int,\ int)
+comment3.text=\r\n\ Este\ m\u00E9todo\ serve\ para\ encerrar\ o\ dia,\ incrementando\ em\ 1\ a\ vari\u00E1vel\r\n\ "diaAtual"\ e\ finalizando\ com\ o\ texdto\ "Digite\ qualquer\ coisa\ para\ continuar".\r\n
+comment4.params=parametros
+comment4.target=Tamagotchi\ criadorDeTamagotchi(Parametros)
+comment4.text=\r\n\ Pede\ para\ que\ o\ usu\u00E1rio\ crie\ um\ Tamagotchi,\ definindo\ seus\ atributos.\r\n
+comment5.params=tamanho\ tempo
+comment5.target=boolean\ perguntaJogarNovamente(int,\ int)
+comment5.text=\r\n\ Cria\ um\ menu\ no\ final\ do\ jogo\ para\ perguntar\ ao\ usu\u00E1rio\ se\ ele\r\n\ deseja\ criar\ um\ novo\ Tamagotchi.\ Caso\ ele\ digite\ 1,\ o\ jogo\ come\u00E7a\r\n\ novamente.\ Caso\ ele\ digite\ 2,\ o\ jogo\ \u00E9\ encerrado.\r\n
+numComments=6
